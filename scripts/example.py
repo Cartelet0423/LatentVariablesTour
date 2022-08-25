@@ -16,5 +16,5 @@ if __name__ == "__main__":
     net = AutoEncoder(28 * 28)
     net.to(device)
     net.load_state_dict(torch.load("linear_mnist_autoenc.pth"))
-    jim = LatentVariablesTour(model=net, dataset=mnist_data, device=device)
-    jim.run()
+    lvt = LatentVariablesTour(model=net, dataset=mnist_data, device=device)
+    lvt.run()
