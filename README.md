@@ -7,4 +7,4 @@ You can swim in the 3D latent space of Auto Encoder-Decoder Model with 3DConnexi
 3. Run a program, e.g. example.py
 4. Enjoy!
 
-![](./video.gif)
+![](./src/video.gif)
