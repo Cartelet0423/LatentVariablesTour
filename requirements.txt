@@ -1,0 +1,6 @@
+matplotlib==3.2.2
+numpy==1.22.4
+pyqtgraph==0.12.4
+spacenavigator==0.2.2
+torch
+torchvision
