@@ -22,7 +22,7 @@ class LatentVariablesTour:
     def setup_spacemouse(self):
         n = len(spacenavigator.list_devices())
         i = 0
-        print("Please keep in use your SpaceMouse...")
+        print("Please keep using your SpaceMouse...")
         for _ in range(n * 20):
             success = spacenavigator.open(DeviceNumber=i)
             if success:
